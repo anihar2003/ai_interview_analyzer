@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "assemblyai": "^4.8.0",
+    "dotenv": "^16.4.7",
+    "video-to-audio": "^1.0.1"
+  }
+}

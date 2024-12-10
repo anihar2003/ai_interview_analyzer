@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Audio Recorder & Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="recording-container">
+            <button id="recordButton" class="record-btn">Start Recording</button>
+            <div id="timer" class="timer">00:00</div>
+            <canvas id="visualizer" class="audio-visualizer"></canvas>
+            <div id="recordingStatus" class="status">Ready to record</div>
+        </div>
+
+        <div class="job-desc-container">
+            <label for="jobDescription">Job Description:</label>
+            <textarea id="job-desc" placeholder="Enter job description..."></textarea>
+        </div>
+
+        <div class="controls">
+            <button id="analyzeButton" class="btn btn-primary" disabled>Analyze Recording</button>
+            <button id="resetButton" class="btn btn-secondary">Reset</button>
+        </div>
+        <div id="loading-spinner" style="display: none;">
+            <div class="loader"></div>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

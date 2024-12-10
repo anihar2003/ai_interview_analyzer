@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Transcription & Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="drop-area" class="drop-area">
+            <input type="file" id="file-input" accept="audio/mp3" style="display:none;">
+            <p>Drag and drop MP3 file here or <a href="#" id="file-select">click to select</a></p>
+        </div>
+
+        <div id="audio-player-container" class="audio-player-container" style="display:none;">
+            <audio id="audio-player" controls>
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="job-desc-container">
+            <label for="job-desc">Job Description , topic and ideal questions:</label>
+            <textarea id="job-desc" placeholder="Enter Job Description , topic and ideal questions..."></textarea>
+        </div>
+
+        <button id="submit-btn">Transcribe & Analyze</button>
+        <div id="loading-spinner" style="display: none;">
+            <div class="loader"></div>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
