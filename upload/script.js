@@ -1,4 +1,4 @@
-const G_API = 'AIzaSyDnjd6gNxkBIdgT537K7DQv6qxnHSw2qDM';
+const G_API = 'AIzaSyAJ7x_hINbAOF-uPXgpqq7LZvH2k39uOag';
 const ASSEMBLY_API_KEY = '45bc790927b94a5eb75e4f81dc64d558';
 
 const dropArea = document.getElementById('drop-area');
