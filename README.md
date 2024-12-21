@@ -1,4 +1,4 @@
-#AI Interview Analyzer
+# AI Interview Analyzer
 An AI-powered tool built in JavaScript that analyzes interview audio, transcribes it, and provides relevancy scores for both interviewers and candidates. This tool leverages natural language processing (NLP) to improve the interview process by providing insights on candidate performance and question relevance.
 
 Features
