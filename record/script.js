@@ -1,5 +1,4 @@
-const G_API = process.env.G_API;
-
+const G_API = 'AIzaSyBaVRAhmgszP27nG1NsYgPAuG7Xq41_w5s';
 let mediaRecorder;
 let audioChunks = [];
 let startTime;

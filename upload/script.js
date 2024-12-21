@@ -1,7 +1,5 @@
-const G_API = process.env.G_API;
-const ASSEMBLY_API_KEY = process.env.ASSEMBLY_API_KEY;
-
-
+const G_API = 'AIzaSyBaVRAhmgszP27nG1NsYgPAuG7Xq41_w5s';
+const ASSEMBLY_API_KEY = '45bc790927b94a5eb75e4f81dc64d558';
 
 const dropArea = document.getElementById('drop-area');
 const fileInput = document.getElementById('file-input');
