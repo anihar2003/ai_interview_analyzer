@@ -1,4 +1,4 @@
-const G_API = 'API_key';
+const G_API = 'AIzaSyBY2Yd_0Ag1SvY2ZEM-cUX0852AgO9ImwE';
 let mediaRecorder;
 let audioChunks = [];
 let startTime;

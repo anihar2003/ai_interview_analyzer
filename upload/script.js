@@ -1,6 +1,6 @@
 
-const G_API = 'API_key';
-const ASSEMBLY_API_KEY = 'API_key';
+const G_API = 'AIzaSyBY2Yd_0Ag1SvY2ZEM-cUX0852AgO9ImwE';
+const ASSEMBLY_API_KEY = '45bc790927b94a5eb75e4f81dc64d558';
 
 const dropArea = document.getElementById('drop-area');
 const fileInput = document.getElementById('file-input');
@@ -123,7 +123,7 @@ submitBtn.addEventListener('click', async () => {
         }
 
         // Gemini API call
-        const geminiResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${G_API}`, {
+        const geminiResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${G_API}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -138,7 +138,7 @@ submitBtn.addEventListener('click', async () => {
                         3. Recruiter feedback -(it is feedback for the recruiter that which type of questions should be asked and not)
                         4. Student relevancy to answers he answered to questions asked by recruiter in detail
                         5. Student feedback on how he can be improved in detail
-                        6. Interview conclusion 
+                        6. Interview conclusion
                         7. probability of student getting selected for role. and give "selection percentage" at the end
                         (give everything in plain text no bold or slant no heading just plain text)`
                     }]
